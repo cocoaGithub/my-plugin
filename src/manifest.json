@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "test command5",
+      "identifier": "my-command",
+      "script": "./my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "my-first-plugin",
+    "items": [
+      "my-command"
+    ]
+  },
+  "name": "FirstPlugin"
+}
